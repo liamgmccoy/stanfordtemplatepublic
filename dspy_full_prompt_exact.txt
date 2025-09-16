@@ -1,0 +1,403 @@
+Generate medical eConsult template optimized for COMPREHENSIVENESS and CONCISENESS with physician-validated best practices
+
+---
+
+Follow the following format.
+
+Specialty: Medical specialty (e.g., cardiology, neurology, endocrinology)
+Condition: Medical condition being consulted about
+Reasoning: Let's think step by step in order to ${reasoning}
+Template: Complete JSON template following Stanford format with physician-validated best practices:
+
+COMPREHENSIVE CLINICAL ASSESSMENT PRINCIPLES:
+1. COMPLETE LAB PANELS: Use "Complete Metabolic Panel (CMP)" not individual components. Include timing like "within last 6 months"
+2. FULL MEDICATION HISTORY: "All current medications, supplements, OTC drugs with dosage, frequency, adherence, duration, recent changes"
+3. THOROUGH SYMPTOMS: Include associated symptoms, severity, frequency, triggers, physical exam findings
+4. BALANCED SPECIFICITY: Avoid over-narrowing (use "family history of cardiac disease" not just "MI")
+5. PRACTICAL TIMEFRAMES: Include relevant timing ("within past year", "while on current therapy")
+
+PRIORITIZE: 1) COMPREHENSIVE coverage of essential clinical elements, 2) CONCISE expression (avoid verbose >20 words), 3) Clinical utility for specialist consultation. Clinical pearls optional.
+
+---
+
+Specialty: rheumatology
+Condition: inflammatory_back_pain
+Reasoning: Let's think step by step in order to create a comprehensive template for rheumatology inflammatory back pain that captures all essential clinical information while maintaining conciseness.
+Template: [
+  {
+    "My Clinical Question (condition: inflammatory back pain)": "***"
+  },
+  {
+    "My most current assessment of this problem can be found in the note dated": "{Today/***}"
+  },
+  {
+    "In your clinical question, or current note, please include information on": {
+      "Assessments": {
+        "Required": [
+          {
+            "Duration of symptoms": "***"
+          },
+          {
+            "Age of onset": "***"
+          },
+          {
+            "Location and radiation of pain": "***"
+          },
+          {
+            "Pattern of pain (e.g., morning stiffness, improvement with exercise)": "***"
+          },
+          {
+            "Associated symptoms (e.g., psoriasis, uveitis, enthesitis)": "***"
+          },
+          {
+            "Family history of inflammatory back disease": "***"
+          },
+          {
+            "Previous treatment for inflammatory back pain (including medications and dosages)": "***"
+          },
+          {
+            "Current medications (including dosages and adherence)": "***"
+          },
+          {
+            "Physical examination findings (including tenderness, swelling, range of motion)": "***"
+          }
+        ],
+        "Optional": []
+      },
+      "Diagnostics": {
+        "Required": [
+          {
+            "Complete Blood Count (CBC)": "***"
+          },
+          {
+            "Erythrocyte Sedimentation Rate (ESR)": "***"
+          },
+          {
+            "C-Reactive Protein (CRP)": "***"
+          },
+          {
+            "HLA-B27": "***"
+          },
+          {
+            "Radiographs of the spine and sacroiliac joints": "***"
+          }
+        ],
+        "Optional": [
+          {
+            "Magnetic Resonance Imaging (MRI) of the spine and sacroiliac joints": "***"
+          },
+          {
+            "Ultrasound of the spine and sacroiliac joints": "***"
+          }
+        ]
+      }
+    }
+  }
+]
+
+---
+
+Specialty: neurology
+Condition: other_sensory_symptoms
+Reasoning: Let's think step by step in order to create a comprehensive neurology template for other sensory symptoms that captures essential neurological assessment elements.
+Template: [
+  {
+    "My Clinical Question (condition: other sensory symptoms)": "***"
+  },
+  {
+    "My most current assessment of this problem can be found in the note dated": "{Today/***}"
+  },
+  {
+    "In your clinical question, or current note, please include information on": {
+      "Assessments": {
+        "Required": [
+          {
+            "Characteristics of symptoms": "***"
+          },
+          {
+            "Distribution": "***"
+          },
+          {
+            "Onset": "***"
+          },
+          {
+            "Exacerbating and relieving factors": "***"
+          },
+          {
+            "Examination of strength, reflexes, sensation, and gait": "***"
+          },
+          {
+            "Prior neurological evaluations": "***"
+          },
+          {
+            "Whether a specific mononeuropathy is suspected": "***"
+          }
+        ],
+        "Optional": []
+      },
+      "Diagnostics": {
+        "Required": [],
+        "Optional": [
+          {
+            "B12": "***"
+          },
+          {
+            "HgbA1c": "***"
+          },
+          {
+            "Fasting glucose": "***"
+          },
+          {
+            "Oral glucose tolerance test (OGTT)": "***"
+          },
+          {
+            "SPEP": "***"
+          },
+          {
+            "CBC": "***"
+          },
+          {
+            "CMP": "***"
+          }
+        ]
+      }
+    }
+  }
+]
+
+---
+
+Specialty: chemical_dependency
+Condition: opioids
+Reasoning: Let's think step by step in order to create a comprehensive chemical dependency template for opioid use that addresses all critical aspects of assessment and treatment planning.
+Template: [
+  {
+    "My Clinical Question (condition: opioids)": "***"
+  },
+  {
+    "My most current assessment of this problem can be found in the note dated": "{Today/***}"
+  },
+  {
+    "In your clinical question, or current note, please include information on": {
+      "Assessments": {
+        "Required": [
+          {
+            "Is your concern chronic opioids for pain and a desire to help taper the patient? Or does this person have an opioid use disorder or heroin use disorder?": "***"
+          },
+          {
+            "Are you interested in starting buprenorphine for this patient?": "***"
+          },
+          {
+            "Do you already have an X-waiver to prescribe buprenorphine for an opioid use disorder? NOTE: for pain, you do not need an X-waiver to prescribe or continue buprenorphine.": "***"
+          },
+          {
+            "If you are interested in buprenorphine transition using the patch form as a bridge off of their full agonist opioid, let us know and we will walk you through that process.": "***"
+          },
+          {
+            "Is the patient pregnant or planning to become pregnant?": "***"
+          },
+          {
+            "Is the patient using tobacco, is it combustible or vaped, and are they interested in cutting back or stopping?": "***"
+          },
+          {
+            "Type, route, amount, frequency of opioid usage?": "***"
+          },
+          {
+            "Total daily Morphine Equivalents: http://www.agencymeddirectors.wa.gov/Calculator/DoseCalculator.htm": "***"
+          },
+          {
+            "Treatment history? History of buprenorphine treatment? How about methadone clinic history?": "***"
+          },
+          {
+            "Effects on occupational, academic or social functioning?": "***"
+          },
+          {
+            "Suspected/known other substance use disorders? Psychiatric diagnoses?": "***"
+          },
+          {
+            "Other medical comorbidities (esp cardiopulmonary disease including OSA, CKD4 or above)?": "***"
+          },
+          {
+            "Polypharmacy? Co-prescribed benzodiazepines?": "***"
+          },
+          {
+            "Family history of SUD?": "***"
+          },
+          {
+            "Most recent CURES report appropriate?": "***"
+          },
+          {
+            "Any history of opioid overdose, either accidental or intentional?": "***"
+          },
+          {
+            "UTox": "***"
+          },
+          {
+            "CMP": "***"
+          },
+          {
+            "Not required for consult but recommended: STD Screening if not done recently — HIV, RPR/VDRL, GC, Chlamydia, HCV for all SUD patients": "***"
+          },
+          {
+            "EKG results in past since starting methadone if on this opioid (QTc interval)": "***"
+          }
+        ],
+        "Optional": []
+      },
+      "Diagnostics": {
+        "Required": [],
+        "Optional": []
+      }
+    }
+  }
+]
+
+---
+
+Specialty: hematology
+Condition: elevated_ferritin
+Reasoning: Let's think step by step in order to create a comprehensive hematology template for elevated ferritin that includes essential workup for iron overload evaluation.
+Template: [
+  {
+    "My Clinical Question (condition: elevated ferritin)": "***"
+  },
+  {
+    "My most current assessment of this problem can be found in the note dated": "{Today/***}"
+  },
+  {
+    "In your clinical question, or current note, please include information on": {
+      "Assessments": {
+        "Required": [
+          {
+            "Family history of iron overload": "{yes/no}"
+          },
+          {
+            "EtOH use": "***"
+          },
+          {
+            "Documented exam for hepatosplenomegaly (otherwise an abdominal US should be considered if there is no recent cross-sectional imaging in the past year)": "***"
+          }
+        ],
+        "Optional": []
+      },
+      "Diagnostics": {
+        "Required": [
+          {
+            "CBC with differential (on two consecutive checks at least one week apart)": "***"
+          },
+          {
+            "CMP": "***"
+          },
+          {
+            "Ferritin (fasting and at baseline health)": "***"
+          },
+          {
+            "Transferrin saturation (fasting and at baseline health)": "***"
+          },
+          {
+            "ESR": "***"
+          },
+          {
+            "CRP": "***"
+          },
+          {
+            "HFE mutation screening": "***"
+          },
+          {
+            "Comprehensive hepatitis panel": "***"
+          }
+        ],
+        "Optional": []
+      }
+    }
+  }
+]
+
+---
+
+Specialty: nephrology
+Condition: proteinuria
+Reasoning: Let's think step by step in order to create a comprehensive nephrology template for proteinuria evaluation that includes essential diagnostic workup and clinical assessments.
+Template: [
+  {
+    "My Clinical Question (condition: proteinuria)": "***"
+  },
+  {
+    "My most current assessment of this problem can be found in the note dated": "{Today/***}"
+  },
+  {
+    "In your clinical question, or current note, please include information on": {
+      "Assessments": {
+        "Required": [],
+        "Optional": [
+          {
+            "Does the patient exercise heavily?": "***"
+          },
+          {
+            "Does the patient have any edema? If yes, where is the edema?": "***"
+          },
+          {
+            "Does the patient have any known/previously diagnosed kidney disease?": "***"
+          },
+          {
+            "Does the patient have any of the following chronic conditions: Hypertension, Diabetes mellitus, Hyperlipidemia, Chronic inflammatory condition (such as SLE or RA)": "***"
+          },
+          {
+            "Has the patient had a recent febrile illness?": "***"
+          }
+        ]
+      },
+      "Diagnostics": {
+        "Required": [
+          {
+            "Basic Metabolic Panel (BMP)": "***"
+          },
+          {
+            "Kidney Ultrasound (Renal Ultrasound)": "***"
+          },
+          {
+            "Urine Albumin": "***"
+          },
+          {
+            "Urinalysis with Microscopy": "***"
+          },
+          {
+            "Spot prot/creat ratio (or 24-hour urine protein and creatinine)": "***"
+          },
+          {
+            "Complete Blood Count (CBC)": "***"
+          }
+        ],
+        "Optional": [
+          {
+            "HBV": "***"
+          },
+          {
+            "HCV": "***"
+          },
+          {
+            "Hemoglobin A1c (HbA1c)": "***"
+          },
+          {
+            "HIV": "***"
+          },
+          {
+            "SPEP (If patient is at risk of monoclonal gammopathy)": "***"
+          },
+          {
+            "UPEP (If patient is at risk of monoclonal gammopathy)": "***"
+          },
+          {
+            "Serum free light chain ratio (If patient is at risk of monoclonal gammopathy)": "***"
+          }
+        ]
+      }
+    }
+  }
+]
+
+---
+
+Specialty: cardiology
+Condition: atrial_fibrillation_atrial_flutter
+Reasoning: Let's think step by step in order to
