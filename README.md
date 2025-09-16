@@ -13,6 +13,7 @@ This repository contains the key prompts and examples from our research on autom
 - `prioritizer_prompt.py` - The prioritization agent that ranks template components
 - `evaluator_prompt_v8.py` - The final evaluation prompt used in our experiments
 - `dspy_optimization_example.json` - Example DSPy optimization artifact with learned prompts and examples
+- `dspy_full_prompt_example.txt` - Example of the FULL prompt that the model actually receives when DSPy runs
 
 ## Background
 
